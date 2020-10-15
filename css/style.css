@@ -318,6 +318,16 @@ body {
   .banner-content h5 {
     font-size: 22px;
   }
+  /* Projects */
+  #projects .content {
+    padding: 80px 30px 40px 30px;
+    /* background: aquamarine; */
+  }
+  /* Skills */
+  #skills .content {
+    padding: 80px 30px 40px 30px;
+    /* background: aquamarine; */
+  }
 }
 
 @media (max-width: 768px) {
@@ -425,5 +435,9 @@ body {
   .btn_primary {
     width: 100%;
     margin: 5px;
+  }
+  /* Skills */
+  .skill-flex .skill {
+    margin: 10px 5px;
   }
 }
