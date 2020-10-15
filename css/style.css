@@ -10,6 +10,78 @@ body {
   color: #383838;
   background: url(../img/body-bg.png) no-repeat center;
 }
+/* ===================== WORKING ===================== */
+.message {
+  width: 70%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 15%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* min-height: 100vh; */
+}
+
+.main-loader {
+  width: 100%;
+  max-width: 250px;
+  height: 120px;
+  background: #000000;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.loader {
+  text-align: center;
+}
+
+h2 {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px 0;
+}
+
+.bar {
+  width: 100%;
+  max-width: 210px;
+  /* height: 20px; */
+  padding: 4px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  transform: translateX(8%);
+  overflow: hidden;
+}
+
+.mainBar {
+  width: 100%;
+  max-width: 0;
+  height: 20px;
+  background: #fff;
+  border-radius: 10px;
+  animation: animate 5s infinite;
+}
+
+@keyframes animate {
+  0% {
+    max-width: 0%;
+  }
+
+  100% {
+    max-width: 100%;
+  }
+}
+
+
+
+/* ===================== WORKING ===================== */
 .navbar {
   background: #ffffff;
   border-bottom: 1px solid rgba(53, 53, 53, 0.2);
